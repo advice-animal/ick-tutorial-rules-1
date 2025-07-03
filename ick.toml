@@ -1,0 +1,10 @@
+[[ruleset]]
+path = "."
+prefix = "tut1"
+
+[[rule]]
+name = "move_isort_cfg"
+impl = "python"
+deps = ["imperfect", "tomlkit"]
+scope = "project"
+project_types = ["python"]
